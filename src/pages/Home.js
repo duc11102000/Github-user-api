@@ -11,7 +11,7 @@ function Home() {
 
   // function async lấy data của repo trong github
   async function repoListData() {
-    await fetch("https://api.github.com/users/octocat/repos")
+    await fetch("https://api.github.com/users/duc11102000/repos")
       .then((res) => res.json())
       .then(
         (data) => {
@@ -26,7 +26,7 @@ function Home() {
 
   //lấy data từ github api để display ảnh và tên profile
   useEffect(() => {
-    fetch("https://api.github.com/users/octocat")
+    fetch("https://api.github.com/users/duc11102000")
       .then((res) => res.json())
       .then(
         (data) => {
