@@ -1,10 +1,30 @@
-# Getting Started with Create React App
+# Github user API
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project will show list of the repositories of specific Github account.
 
-## Available Scripts
+## Overview project
 
-In the project directory, you can run:
+This project has main feature like:
+-Login/Logout 
+-Search bar to search for repositories
+-Show list of repositories
+
+**Note:
+Account to login:
+Username: duc1110
+Password: 123
+
+## Technology used
+
+ReactJS, React-Bootstrap, SCSS.
+
+## Start project
+
+First clone the repository, then cd to project directory and run:
+
+### `npm install`
+
+Once the installation complete, to start the project run: 
 
 ### `npm start`
 

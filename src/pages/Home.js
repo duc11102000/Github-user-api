@@ -30,7 +30,7 @@ function Home() {
       .then((res) => res.json())
       .then(
         (data) => {
-          // console.log(data);
+          console.log(data);
           setAvatar(data.avatar_url);
           setUserName(data.login);
         },

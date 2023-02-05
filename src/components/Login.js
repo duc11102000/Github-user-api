@@ -28,10 +28,10 @@ function Login() {
         <form onSubmit={handleSubmit} className="login-form">
           <h1>Login</h1>
           <div className="user-input">
-            <input type="text" ref={userName} />
+            <input type="text" ref={userName} placeholder="Username" />
           </div>
           <div className="password-input">
-            <input type="password" ref={password} />
+            <input type="password" ref={password} placeholder="Password" />
           </div>
           <button>Login</button>
         </form>
