@@ -88,7 +88,7 @@ function Home() {
           </Accordion>
         </Card.Body>
       </Card>
-      <Logout/>
+      {/* <Logout/> */}
     </div>
   );
 }

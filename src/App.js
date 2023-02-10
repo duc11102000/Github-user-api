@@ -6,12 +6,7 @@ import Login from "./components/Login.js";
 function App() {
   return (
     <div>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Login />} />
-          {/* <Route path="/home" element={<Home />} /> */}
-        </Routes>
-      </BrowserRouter>
+      <Home/>
     </div>
   );
 }
